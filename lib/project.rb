@@ -12,4 +12,7 @@ class Project
     @backers << backer_obj
   end
   
+  def self.all
+  end
+  
 end
