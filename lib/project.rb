@@ -1,4 +1,7 @@
 class Project
-  attr_reader :options_from_collection_for_select
+  attr_reader :title 
   
+  def initialize(title)
+    @title = title
+  end
 end
